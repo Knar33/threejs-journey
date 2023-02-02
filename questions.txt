@@ -1,0 +1,3 @@
+is three.js left or right handed?
+
+when grouping objects and changing the scale of the group, can we read world scale (instead of the relative scale)?
