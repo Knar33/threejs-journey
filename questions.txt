@@ -1,3 +1,14 @@
 is three.js left or right handed?
 
 when grouping objects and changing the scale of the group, can we read world scale (instead of the relative scale)?
+
+how does window pixel ratio work when a window is between 2 screens?
+
+(domelement).requestFullscren is this javascript/web api or a three.js function?
+
+in chapter 8 bruno says we can't do: 
+    if (!(document.fullscreenElement || document.webkitFullscreenElement))
+instead we need to assign it to a variable and do
+    const fullscreenElement = document.fullscreenElement || document.webkitFullscreenElement;
+    if (!fullscreenElement)
+why?
