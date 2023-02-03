@@ -4,7 +4,7 @@ when grouping objects and changing the scale of the group, can we read world sca
 
 how does window pixel ratio work when a window is between 2 screens?
 
-(domelement).requestFullscren is this javascript/web api or a three.js function?
+(domelement).requestFullscreen is this javascript/web api or a three.js function?
 
 in chapter 8 bruno says we can't do: 
     if (!(document.fullscreenElement || document.webkitFullscreenElement))
