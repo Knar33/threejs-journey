@@ -12,3 +12,5 @@ instead we need to assign it to a variable and do
     const fullscreenElement = document.fullscreenElement || document.webkitFullscreenElement;
     if (!fullscreenElement)
 why?
+
+what are UV Coordinates? 2 vertices?
