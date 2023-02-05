@@ -22,3 +22,4 @@ what exactly is min and mag filter?
 
 what happens exactly if you have an image texture that's not a power of 2?
 
+how is the shadow camera applies to create the actual shadows?
