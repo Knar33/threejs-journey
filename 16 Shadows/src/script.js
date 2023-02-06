@@ -6,7 +6,7 @@ import * as dat from 'lil-gui'
 const textureLoader = new THREE.TextureLoader();
 const bakeShadow = textureLoader.load("/textures/bakedShadow.jpg");
 const simpleShadow = textureLoader.load("/textures/simpleShadow.jpg");
-
+const particleTexture = textureLoader.load("/textures/particles/9.png");
 /**
  * Base
  */
