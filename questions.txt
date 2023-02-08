@@ -23,6 +23,9 @@ how does it work to deploy stuff written on glitch, relative script paths?
 standard size/scale of units in three.js scenes vs blender?
 
 what does controls.update do?
+
+blender - are areas sensitive based on mouse hover or selected area?
+    hover
     
 --------------------------
 
@@ -40,3 +43,7 @@ performance advantages of r3f
 
 do you know why people use gsap instead of the build-in tween
     gsap more well documented, more functions
+
+blender - are areas sensitive based on mouse hover or selected area?
+    hover
+    
