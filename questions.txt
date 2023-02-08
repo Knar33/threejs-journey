@@ -21,6 +21,8 @@ why does gltfloader remove scene children when you add a mesh to the scene
 how does it work to deploy stuff written on glitch, relative script paths?
 
 standard size/scale of units in three.js scenes vs blender?
+
+what does controls.update do?
     
 --------------------------
 
