@@ -24,8 +24,7 @@ standard size/scale of units in three.js scenes vs blender?
 
 what does controls.update do?
 
-blender - are areas sensitive based on mouse hover or selected area?
-    hover
+how does the textureloader know to apply srgb, how does it happen automatically
     
 --------------------------
 
@@ -47,3 +46,5 @@ do you know why people use gsap instead of the build-in tween
 blender - are areas sensitive based on mouse hover or selected area?
     hover
     
+blender - are areas sensitive based on mouse hover or selected area?
+    hover
