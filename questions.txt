@@ -25,6 +25,10 @@ standard size/scale of units in three.js scenes vs blender?
 what does controls.update do?
 
 how does the textureloader know to apply srgb, how does it happen automatically
+
+does requestAnimationFrame delay by 1 frame? call function on next frame?
+
+why don't we need function in front of functions in a class
     
 --------------------------
 
@@ -48,3 +52,26 @@ blender - are areas sensitive based on mouse hover or selected area?
     
 blender - are areas sensitive based on mouse hover or selected area?
     hover
+
+
+in lesson 26 bruno explains how we lose the context if we do 
+    constructor(canvas)
+    {
+        console.log("here starts a great experience");
+
+        //options
+        this.canvas = canvas;
+
+        this.sizes = new Sizes();
+        this.sizes.on("resize", this.resize);
+    }
+
+    resize()
+    {
+        console.log(this.sizes.width);
+        console.log("A resize occured");
+    }
+instead of passing resize into this.sizes.on, we need to pass it an arrow function and call that function. 
+We also can't use function, need to use arrow. 
+Why?
+    Because the parameters, and this, are not stored with normal functions. Fat arrow creates a function and automatically binds the parameters
