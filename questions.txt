@@ -29,6 +29,8 @@ how does the textureloader know to apply srgb, how does it happen automatically
 does requestAnimationFrame delay by 1 frame? call function on next frame?
 
 why don't we need function in front of functions in a class
+
+is fragment shader for each pixel on the screen or is it tied to geometry?
     
 --------------------------
 
