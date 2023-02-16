@@ -31,6 +31,9 @@ does requestAnimationFrame delay by 1 frame? call function on next frame?
 why don't we need function in front of functions in a class
 
 is fragment shader for each pixel on the screen or is it tied to geometry?
+
+in lesson 30, how does the fragment shader apply to the pixel as if it were a geometry plane?
+And how does modelPosition effect each point instead of the entire model
     
 --------------------------
 
