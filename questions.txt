@@ -12,8 +12,6 @@ is Image() a js class or three class?
 
 what exactly is min and mag filter?
 
-what happens exactly if you have an image texture that's not a power of 2?
-
 how is the shadow camera applies to create the actual shadows?
 
 why does gltfloader remove scene children when you add a mesh to the scene
@@ -34,6 +32,8 @@ is fragment shader for each pixel on the screen or is it tied to geometry?
 
 in lesson 30, how does the fragment shader apply to the pixel as if it were a geometry plane?
 And how does modelPosition effect each point instead of the entire model
+
+how do instanced meshes work? how do you control them by changing the matrices
     
 --------------------------
 
@@ -80,3 +80,7 @@ instead of passing resize into this.sizes.on, we need to pass it an arrow functi
 We also can't use function, need to use arrow. 
 Why?
     Because the parameters, and this, are not stored with normal functions. Fat arrow creates a function and automatically binds the parameters
+
+
+what happens exactly if you have an image texture that's not a power of 2?
+    it will try to find the closest power of two, it will be inaccurate and is more work for the gpu
